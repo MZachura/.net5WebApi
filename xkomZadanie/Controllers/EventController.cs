@@ -16,8 +16,8 @@ namespace xkomZadanie.Controllers
     public class EventController : ControllerBase
     {
         private readonly IEvents repository;
-       
-        
+
+
 
         public EventController(IEvents repository)
         {
@@ -93,8 +93,8 @@ namespace xkomZadanie.Controllers
             {
                 return NotFound();
             }
-            string key = userDto.Name.ToString();
-            string val = userDto.Email.ToString();
+            string key = userDto.Email.ToString();
+            string val = userDto.Name.ToString();
             Dictionary<string, string> dict = existingEvent.Users;
                 if (existingEvent.Users.Count < 25)
                 {
@@ -107,7 +107,7 @@ namespace xkomZadanie.Controllers
                     return NoContent();
                 }
             return StatusCode(405);
-            
+
         }
 
 
