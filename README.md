@@ -1,7 +1,4 @@
 # .net5WebApi
- Zadanie wykonane na potrzebę rekrutacji xKom 
-
-
 Zadanie polegało na wykonaniu WebApi w .net5.
 Użyto bazy dokumentowej MongoDB.
 
