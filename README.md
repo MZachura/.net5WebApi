@@ -1,5 +1,5 @@
 # .net5WebApi
-Zadanie polegało na wykonaniu WebApi w .net5.
+Proste Web Api 
 Użyto bazy dokumentowej MongoDB.
 
 Api umożliwia: 
